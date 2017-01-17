@@ -30,5 +30,9 @@ What does the command ls do when used with the -l and -h arguments?
 
 The -l argument creates a long list format which not only shows what files are listed but the size of the files. The -h argument creates a human-readable form of this long list which converts the size files into a standard xx.xK form. 
 
+Listing Recursively and By Time
 
+The command ls -R lists the contents of directories recursively, i.e., lists their sub-directories, sub-sub-directories, and so on in alphabetical order at each level. The command ls -t lists things by time of last change, with most recently changed files or directories first. In what order does ls -R -t display things? Hint: ls -l uses a long listing format to view timestamps.
+
+The directories are sorted alphabetical at each level, and the files within the directories are sorted by time of last change. 
 
