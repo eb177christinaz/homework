@@ -7,5 +7,12 @@ cd ~/data/..
 cd 
 cd ..
 
+Relative Path Resolution
+
+Using the filesystem diagram below, if pwd displays /Users/thing, what will ls ../backup display?
+
+http://swcarpentry.github.io/shell-novice/fig/filesystem-challenge.svg
+
+original pnas_final pnas_sub
 
 
