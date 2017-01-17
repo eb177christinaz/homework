@@ -24,5 +24,11 @@ pnas_sub/ pnas_final/ original/
 ls -r -F
 ls -r -F /Users/backup
 
+Exploring More ls Arguments
+
+What does the command ls do when used with the -l and -h arguments?
+
+The -l argument creates a long list format which not only shows what files are listed but the size of the files. The -h argument creates a human-readable form of this long list which converts the size files into a standard xx.xK form. 
+
 
 
