@@ -8,6 +8,7 @@ Rodentia
 
 2)
   cut -d ';' -f 3 Pacifici2013_data.csv | sort | uniq | wc -l
+There are 153 unique families
 Abrocomidae
 Acrobatidae
 Ailuridae
@@ -165,5 +166,11 @@ Ziphiidae
 3)
   539  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '| sort -r -n -k 6 > BodyM.csv
   540  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '| sort -r -n -k 6 
-  541  ls
-  542  history 10 >> ../../../homework/week-2-hw-eeb177.txt 
+
+4)
+  576  cut -d ';' -f 5,6 Pacifici2013_data.csv | sort -n -t';' -k2 | head -n 11
+  577  cut -d ';' -f 5,6 Pacifici2013_data.csv | sort -r -n -t';' -k2 | head -n 11
+  578  history 7 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
+
+10th smallest species: Pipistrellus nanulus 2.51g
+10th largest species: Eubalaena glacialis 22999999.91g
