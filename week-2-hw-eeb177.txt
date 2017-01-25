@@ -1,0 +1,9 @@
+1) 
+  440  head -n 6 Pacifici2013_data.csv | tail -n +2 | cut -d ';' -f 2
+Rodentia
+Rodentia
+Rodentia
+Macroscelidea
+Rodentia
+
+2)
