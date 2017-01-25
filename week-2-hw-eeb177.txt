@@ -163,5 +163,7 @@ Vombatidae
 Ziphiidae
 
 3)
-
-
+  539  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '| sort -r -n -k 6 > BodyM.csv
+  540  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '| sort -r -n -k 6 
+  541  ls
+  542  history 10 >> ../../../homework/week-2-hw-eeb177.txt 
