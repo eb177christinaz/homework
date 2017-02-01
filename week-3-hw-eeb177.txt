@@ -1,0 +1,9 @@
+1a) cut -f 1 Gesquiere2011_data.csv| grep -w "3" | wc -l
+           61
+        cut -f 1 Gesquiere2011_data.csv| grep -w "3" | wc -l
+          5
+b)
+#!/bin/bash
+echo "Filename is: "$1 "and ID is: "$2
+echo "Number of records is :"
+cut -f 1 $1| grep -c -w $2
