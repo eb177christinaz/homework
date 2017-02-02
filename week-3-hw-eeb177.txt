@@ -7,3 +7,10 @@ b)
 echo "Filename is: "$1 "and ID is: "$2
 echo "Number of records is :"
 cut -f 1 $1| grep -c -w $2
+
+c) 
+#! /bin/bash
+echo "Filename is: "$1
+for id in `cut -f 1 Gesquiere2011_data.csv|tail -n +2| sort -n| uniq`
+do echo "ID is: " $id "Records for ID is" `cut -f $1 | grep -c -w $id`
+done
