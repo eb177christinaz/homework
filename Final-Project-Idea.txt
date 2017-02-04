@@ -1,0 +1,7 @@
+Project Idea: Endangered Species
+Website: https://www.fws.gov/endangered
+
+I will track 3 species in Class Mammalia and Order Carnivora through time to understand the fluctuations in conservation status.
+
+I'm interested in Red Pandas, Red Fox, Artic Wolf
+I want to look at the population fluctuations in the past 5 decades and look at how the species adapted to habitat loss and modernization. 
